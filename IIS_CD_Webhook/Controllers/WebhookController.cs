@@ -34,7 +34,7 @@ namespace IIS_CD_Webhook.Controllers
             }
             catch (Exception e)
             {
-                _logger.LogError(e.Message);
+                _logger.LogError(e,"Error");
                 throw;
             }
             return Ok();
