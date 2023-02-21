@@ -6,7 +6,6 @@ using NLog.Web;
 var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 logger.Debug("init main");//ÉçÉO
 var builder = WebApplication.CreateBuilder(args);
-logger.Debug("init main");
 try
 {
     // Add services to the container.
@@ -32,7 +31,7 @@ try
     }
     else
     {
-        app.UseExceptionHandler("Webhook/Error?StatusCode=500");
+        app.UseExceptionHandler("/Webhook/Error?StatusCode=500");
     }
 
     app.UseHttpsRedirection();
