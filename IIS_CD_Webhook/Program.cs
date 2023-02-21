@@ -1,21 +1,26 @@
+using IIS_CD_Webhook.Controllers;
 using Microsoft.AspNetCore.Diagnostics;
+using NLog;
 using NLog.Web;
 
-var logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();//ƒƒO
+var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+logger.Debug("init main");//ƒƒO
 var builder = WebApplication.CreateBuilder(args);
-
+logger.Debug("init main");
 try
 {
     // Add services to the container.
     builder.Services.AddControllers();
-    // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
-    builder.Services.AddLogging(builder =>
-    {
-        builder.AddJsonConsole(options => options.IncludeScopes = true);
-    });
+
+    builder.Logging.ClearProviders();
+    builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
     builder.Host.UseNLog();
+
+    builder.Services.AddTransient<WebhookController>();
 
     var app = builder.Build();
 
