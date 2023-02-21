@@ -27,7 +27,9 @@ namespace IIS_CD_Webhook.Controllers
                 { 
                     GitProcess gitProc = new GitProcess(con);
                     gitProc.ExcecGitCommands(config.WorkingDir,config.CloneURL);
+                    _logger.LogTrace("Git Cmmands Excected");
                     MSBuildProcess buildProc = new MSBuildProcess(con);
+                    _logger.LogTrace("Git Cmmands Excected");
                     buildProc.ExcecBuildCommand(config.WorkingDir, config.RootPath, config.ProjectFileName);
                 }
 
