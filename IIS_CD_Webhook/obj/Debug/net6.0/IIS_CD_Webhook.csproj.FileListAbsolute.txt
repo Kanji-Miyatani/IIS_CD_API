@@ -30,3 +30,7 @@ C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\obj\Debug\net6.0\
 C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\obj\Debug\net6.0\IIS_CD_Webhook.pdb
 C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\obj\Debug\net6.0\IIS_CD_Webhook.genruntimeconfig.cache
 C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\obj\Debug\net6.0\ref\IIS_CD_Webhook.dll
+C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\nlog.config
+C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\NLog.dll
+C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\NLog.Web.AspNetCore.dll

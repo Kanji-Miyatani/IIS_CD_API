@@ -1,0 +1,45 @@
+2023-02-21 15:19:49.0146 Info Message Template Auto Format enabled
+2023-02-21 15:19:49.2126 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-21 15:19:49.2796 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=debuglog)
+2023-02-21 15:19:49.2949 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=infolog)
+2023-02-21 15:19:49.2949 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorlog)
+2023-02-21 15:19:49.3301 Info Validating config: TargetNames=debuglog, errorlog, infolog, ConfigItems=75, FilePath=C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\nlog.config
+2023-02-21 15:20:06.9493 Info Message Template Auto Format enabled
+2023-02-21 15:20:06.9493 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-21 15:20:07.0030 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=debuglog)
+2023-02-21 15:20:07.0127 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=infolog)
+2023-02-21 15:20:07.0127 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorlog)
+2023-02-21 15:20:07.0417 Info Validating config: TargetNames=debuglog, errorlog, infolog, ConfigItems=75, FilePath=C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\nlog.config
+2023-02-21 15:22:56.4739 Info Message Template Auto Format enabled
+2023-02-21 15:22:56.4812 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-21 15:22:56.5307 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=debuglog)
+2023-02-21 15:22:56.5307 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=infolog)
+2023-02-21 15:22:56.5416 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorlog)
+2023-02-21 15:22:56.5653 Info Validating config: TargetNames=debuglog, errorlog, infolog, ConfigItems=75, FilePath=C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\nlog.config
+2023-02-21 15:24:54.3692 Info Message Template Auto Format enabled
+2023-02-21 15:24:54.3759 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-21 15:24:54.4210 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=debuglog)
+2023-02-21 15:24:54.4210 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=infolog)
+2023-02-21 15:24:54.4210 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorlog)
+2023-02-21 15:24:54.4521 Info Validating config: TargetNames=debuglog, errorlog, infolog, ConfigItems=75, FilePath=C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\nlog.config
+2023-02-21 15:34:08.4153 Info Message Template Auto Format enabled
+2023-02-21 15:34:08.4153 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-21 15:34:08.4696 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=debuglog)
+2023-02-21 15:34:08.4786 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=infolog)
+2023-02-21 15:34:08.4786 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorlog)
+2023-02-21 15:34:08.5012 Info Validating config: TargetNames=debuglog, errorlog, infolog, ConfigItems=75, FilePath=C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\nlog.config
+2023-02-21 15:34:09.1067 Info Validating config: TargetNames=debuglog, errorlog, infolog, ConfigItems=75, FilePath=C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\nlog.config
+2023-02-21 15:36:18.1594 Info Message Template Auto Format enabled
+2023-02-21 15:36:18.1658 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-21 15:36:18.2066 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=debuglog)
+2023-02-21 15:36:18.2152 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=infolog)
+2023-02-21 15:36:18.2152 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorlog)
+2023-02-21 15:36:18.2393 Info Validating config: TargetNames=debuglog, errorlog, infolog, ConfigItems=75, FilePath=C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\nlog.config
+2023-02-21 15:36:18.7384 Info Validating config: TargetNames=debuglog, errorlog, infolog, ConfigItems=75, FilePath=C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\nlog.config
+2023-02-21 15:38:10.9435 Info Message Template Auto Format enabled
+2023-02-21 15:38:10.9505 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-21 15:38:10.9921 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=debuglog)
+2023-02-21 15:38:11.0004 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=infolog)
+2023-02-21 15:38:11.0004 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorlog)
+2023-02-21 15:38:11.0238 Info Validating config: TargetNames=debuglog, errorlog, infolog, ConfigItems=75, FilePath=C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\nlog.config
+2023-02-21 15:38:11.5005 Info Validating config: TargetNames=debuglog, errorlog, infolog, ConfigItems=75, FilePath=C:\Users\k-miyatani\source\repos\IIS_CD_Webhook\IIS_CD_Webhook\bin\Debug\net6.0\nlog.config

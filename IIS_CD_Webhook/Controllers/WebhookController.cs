@@ -19,14 +19,23 @@ namespace IIS_CD_Webhook.Controllers
         [HttpGet(Name ="/")]
         public IActionResult Get(string t="test")
         {
-            var config = new Configuration();
-            if (t != config.AccessToken) throw new Exception("トークンが不正です。");
-            using (var con = new ComandProcessContext())
-            { 
-                GitProcess gitProc = new GitProcess(con);
-                gitProc.ExcecGitCommands(config.WorkingDir,config.CloneURL);
-                MSBuildProcess buildProc = new MSBuildProcess(con);
-                buildProc.ExcecBuildCommand(config.WorkingDir, config.RootPath, config.ProjectFileName);
+            try
+            {
+                var config = new Configuration();
+                if (t != config.AccessToken) throw new Exception("トークンが不正です。");
+                using (var con = new ComandProcessContext())
+                { 
+                    GitProcess gitProc = new GitProcess(con);
+                    gitProc.ExcecGitCommands(config.WorkingDir,config.CloneURL);
+                    MSBuildProcess buildProc = new MSBuildProcess(con);
+                    buildProc.ExcecBuildCommand(config.WorkingDir, config.RootPath, config.ProjectFileName);
+                }
+
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e.Message);
+                throw;
             }
             return Ok();
         }
