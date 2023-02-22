@@ -23,13 +23,13 @@ namespace IIS_CD_Webhook.Controllers
             {
                 var config = new Configuration();
                 if (t != config.AccessToken) throw new Exception("トークンが不正です。");
-                using (var con = new ComandProcessContext())
+                using (var con = new ComandProcessContext(_logger))
                 { 
-                    GitProcess gitProc = new GitProcess(con);
+                    GitProcess gitProc = new (con);
                     gitProc.ExcecGitCommands(config.WorkingDir,config.CloneURL);
-                    _logger.LogTrace("Git Cmmands Excected");
-                    MSBuildProcess buildProc = new MSBuildProcess(con);
-                    _logger.LogTrace("Git Cmmands Excected");
+                    _logger.LogDebug("Git Cmmands Excected");
+                    MSBuildProcess buildProc = new (con);
+                    _logger.LogDebug("Build Cmmands Excected");
                     buildProc.ExcecBuildCommand(config.WorkingDir, config.RootPath, config.ProjectFileName);
                 }
 
