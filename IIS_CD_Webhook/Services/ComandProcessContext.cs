@@ -31,8 +31,6 @@ namespace IIS_CD_Webhook.Services
             { 
                 sw.WriteLine(command);
             }
-            sw.Close();
-           
         }
         public void Dispose()
         {
