@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IIS_CD_Webhook.props" />
+</Project>
