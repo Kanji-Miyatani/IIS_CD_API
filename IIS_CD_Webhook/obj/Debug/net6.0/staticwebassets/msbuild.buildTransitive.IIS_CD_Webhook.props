@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\IIS_CD_Webhook.props" />
-</Project>
