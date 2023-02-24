@@ -14,6 +14,7 @@ namespace IIS_CD_Webhook.Services
             p.StartInfo.UseShellExecute = false;
             p.StartInfo.RedirectStandardInput = true;
             p.StartInfo.RedirectStandardOutput = true;
+            p.StartInfo.RedirectStandardError = true;
             p.Start();
             _p = p;
             _logger = logger;
@@ -37,7 +38,10 @@ namespace IIS_CD_Webhook.Services
             _p.StandardInput.Close();
             _p.WaitForExit();
             var pm=_p.StandardOutput.ReadToEnd();
+            var er = _p.StandardError.ReadToEnd();
             _logger.LogDebug(pm);
+            _logger.LogDebug("=========PROCESS ERRORs========");
+            _logger.LogDebug(er);
             _p.Close();
             _p.Dispose();
         }
